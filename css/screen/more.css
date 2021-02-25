@@ -1,0 +1,29 @@
+.more-screen .icon-rows {
+  margin-top: 35px;
+}
+.more-suggestion {
+  border-top: var(--main-border);
+}
+.more-suggestion__title h4 {
+  font-weight: 600;
+  padding: 10px 0;
+}
+.more-suggestion__icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.more-suggestion__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.more-suggestion__icon-text {
+  margin-top: 10px;
+}
+.more-suggestion__icon-text {
+  font-size: 70%;
+  color: var(--gray);
+  font-weight: 600;
+}

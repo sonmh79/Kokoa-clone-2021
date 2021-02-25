@@ -28,7 +28,7 @@
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1.2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1.2px solid var(--gray);
   transition: border-color 2s ease-in-out;
 }
 

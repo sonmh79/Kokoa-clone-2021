@@ -1,0 +1,24 @@
+.invisible {
+  opacity: 0;
+}
+.icon-rows__icon .badge__xs {
+  right: -5px;
+}
+.icon-rows {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  margin: 10px 0;
+}
+.icon-rows__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.icon-rows__icon i {
+  font-size: 30px;
+}
+.icon-rows__icon span {
+  margin-top: 15px;
+}

@@ -1,4 +1,7 @@
 :root {
   --green: rgb(25, 206, 96);
   --yellow: rgb(254, 225, 0);
+  --horizontal: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.3);
+  --gray: rgba(0, 0, 0, 0.5);
 }
