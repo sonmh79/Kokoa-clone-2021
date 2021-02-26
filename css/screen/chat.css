@@ -16,8 +16,7 @@
   top: 0;
   z-index: 1;
 }
-.main-chat {
-}
+
 .chat__timestamp {
   display: flex;
   justify-content: center;
@@ -96,6 +95,7 @@
   padding: 5px 25px;
   align-items: center;
   box-sizing: border-box;
+  transition: bottom 0.3s ease-in-out;
 }
 
 .reply__column:first-child {
@@ -110,6 +110,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -134,4 +135,37 @@
 }
 .reply i {
   color: var(--gray);
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.main-chat {
+  animation: FadeIn 0.2s linear forwards;
+}
+
+.reply i,
+.reply button {
+  transition: all 0.3s ease-in-out;
+}
+
+.reply:focus-within i,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 92vw;
+  transform: translateX(-11%) translateY(-80px);
+}
+
+.reply:focus-within {
+  bottom: -80px;
 }

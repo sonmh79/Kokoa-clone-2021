@@ -105,3 +105,22 @@
 .open-post__photo__heart-count > span {
   font-size: 8px;
 }
+
+@keyframes HeartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__photo__heart-count:hover i {
+  will-change: transform;
+  animation: HeartBeat 1s cubic-bezier(0.755, 0.05, 0.855, 0.06) infinite;
+}
