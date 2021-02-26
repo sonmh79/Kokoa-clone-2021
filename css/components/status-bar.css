@@ -25,3 +25,21 @@
 .status-bar__column .fa-battery-three-quarters {
   margin: 0px 5px;
 }
+@keyframes StatusbarBounce {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.status-bar span:hover,
+.status-bar i:hover {
+  will-change: animation;
+  opacity: 0;
+  animation: StatusbarBounce 2s ease-in-out infinite;
+}

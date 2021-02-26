@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  position: relative;
 }
 .user-component,
 .user-component__column:first-child {
@@ -11,6 +12,14 @@
   flex-direction: column;
   align-items: flex-end;
   color: rgb(0, 0, 0, 0.3);
+}
+
+.user-component__column .user-component__logout {
+  position: absolute;
+  top: 34%;
+  right: 50px;
+  color: black;
+  font-size: 110%;
 }
 .user-component__avatar {
   width: 70px;

@@ -7,6 +7,7 @@
 @import "screen/more.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
+@import "screen/photo-arin.css";
 
 /* components */
 @import "components/status-bar.css";
