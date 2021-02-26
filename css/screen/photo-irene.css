@@ -1,0 +1,22 @@
+.photo-irene__column:first-child {
+  display: flex;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+.photo-irene__column:first-child a {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.photo-irene__column:last-child {
+  margin-top: 20px;
+}
+.photo-irene__column img {
+  height: 30%;
+  width: 30%;
+}
+.photo-irene__column span {
+  font-size: 20px;
+  font-weight: 600;
+}
